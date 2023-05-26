@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2023/01/22/23/16/tic-tac-toe-7737546__480.jpg");
+    background-size: cover;
+  }
+table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #restart {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  a.return-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    background-color: #aae;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  a.return-link:hover {
+    background-color: #2FA;
+  }
+ .div1 {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .ret {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #000;
+    margin-top: 10px;
+  }
+  
+  .grid {
+    background-image: url("https://img.freepik.com/free-photo/bronze-pattern-background_53876-71407.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+    height: 15em;
+    width: 15em;
+    margin: 0 auto;
+    padding: 3em;
+    border-radius: 10px;
+  }
+  
+  #restart {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: 1em auto;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #restart:hover {
+    background-color: #7868b3;
+  }
+   
+
+  
+
+  
+
+  

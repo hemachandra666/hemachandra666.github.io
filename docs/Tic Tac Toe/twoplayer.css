@@ -1,0 +1,108 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/168678735/photo/metal-tic-tac-toe-game-pieces.jpg?s=612x612&w=0&k=20&c=PaH_PC31eSkyRSNwIGTbHo8_2rRBMeB-wO411SQao0E=");
+    background-size: contain;
+  }
+  
+  .container {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  td {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #E6E6E6;
+    border: 2px solid #000;
+    cursor: pointer;
+  }
+  
+  td:hover {
+    background-color: #CCCCCC;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+
+  .div1 {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .title-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .ret {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+      color: #000;
+      margin-top: 10px;
+    }
+
+    a.return-link {
+      font-size: 18px;
+      text-decoration: none;
+      color: #333;
+      background-color: #e0b8dc;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.2s ease;
+    }
+    
+    a.return-link:hover {
+      background-color: #2FA;
+    }
+  
+    #restart, #undo {
+      background-color: #4CAF50; 
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      display: flex;
+      margin: 0 auto;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    
+    #restart:hover {
+      background-color: #7868b3;
+    }
+    #undo:hover {
+      background-color: #7868b3;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin: 0 auto;
+  }
+  
